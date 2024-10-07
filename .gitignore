@@ -1,2 +1,9 @@
 keycloak-db/
 shopping-db/
+keycloak/
+.idea/
+
+shopping-realm.json
+shopping-realm-users-0.json
+shopping-realm-users-1.json
+
