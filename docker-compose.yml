@@ -28,6 +28,7 @@ services:
       - ./shopping-realm-users-1.json:/opt/keycloak/shopping-realm-users-1.json
       - ./keycloak-init.sh:/opt/keycloak/keycloak-init.sh
       - ./keycloak:/opt/keycloak/data
+      - ./themes:/opt/keycloak/providers/
     ports:
       - "8090:8080"
     depends_on:
