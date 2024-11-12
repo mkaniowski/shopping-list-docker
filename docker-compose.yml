@@ -21,7 +21,7 @@ services:
       KC_BOOTSTRAP_ADMIN_USERNAME: admin
       KC_BOOTSTRAP_ADMIN_PASSWORD: admin
 
-    entrypoint: ["/opt/keycloak/keycloak-init.sh"]
+    entrypoint: [ "/opt/keycloak/keycloak-init.sh" ]
     volumes:
       - ./shopping-realm.json:/opt/keycloak/shopping-realm.json
       - ./shopping-realm-users-0.json:/opt/keycloak/shopping-realm-users-0.json
